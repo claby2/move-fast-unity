@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class HitboxDetection : MonoBehaviour {
 
+    [Header("State")]
     public bool isColliding = false;
 
     void OnTriggerEnter2D(Collider2D collision) {

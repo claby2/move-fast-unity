@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour {
 
+    [Header("Player Object")]
     public GameObject player;
 
     private float smoothing = 0.1f;

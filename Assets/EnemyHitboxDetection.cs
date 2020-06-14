@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyHitboxDetection : MonoBehaviour {
 
+    [Header("States")]
     public bool isCollidingLevel = false;
     public bool isCollidingEnemy = false;
 

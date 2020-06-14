@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyBehavior : MonoBehaviour {
 
+    [Header("Player Object")]
     public GameObject player;
 
     private GameObject directionIndicator;

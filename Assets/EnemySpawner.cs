@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour {
-    
+
+    [Header("Objects")]
     public GameObject enemy;
     public GameObject player;
 
+    [Header("Game States")]
     public bool hasMoved;
 
     public float[,] enemyPositions;

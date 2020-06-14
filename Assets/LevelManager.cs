@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class LevelManager : MonoBehaviour {
 
+    [Header("Objects")]
     public GameObject player;
     public GameObject objective;
     public GameObject enemySpawner;
     public GameObject mainCamera;
 
+    [Header("Level Data JSON")]
     public TextAsset jsonLevelData;
 
     public int amountOfLevels;

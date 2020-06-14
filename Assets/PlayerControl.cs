@@ -16,7 +16,7 @@ public class PlayerControl : MonoBehaviour {
     [Header("Position")]
     public Vector3 previousPosition;
 
-    [Header("State")]
+    [Header("States")]
     public bool hasDied = false;
     public bool hasReachedObjective = false;
 
