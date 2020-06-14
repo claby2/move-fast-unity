@@ -13,8 +13,7 @@ public class LevelManager : MonoBehaviour {
     [Header("Level Data JSON")]
     public TextAsset jsonLevelData;
 
-    public int amountOfLevels;
-
+    private int amountOfLevels;
     private int currentLevel = 0;
     private LevelData loadedLevelData;
     private PlayerControl playerControl;
