@@ -73,9 +73,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -3627264120405484348, guid: 80ff5366e664bb748983d7868ce41522,
+  m_Sprite: {fileID: -4815885190406460031, guid: 80ff5366e664bb748983d7868ce41522,
     type: 3}
-  m_Color: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -144,6 +144,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59137738cc62a7d418f102ba484c17b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCollidingLevel: 0
+  isCollidingEnemy: 0
 --- !u!1 &7904492348842747024
 GameObject:
   m_ObjectHideFlags: 0
@@ -219,9 +221,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7486092956772349302, guid: 80ff5366e664bb748983d7868ce41522,
+  m_Sprite: {fileID: 7477116942032994148, guid: 80ff5366e664bb748983d7868ce41522,
     type: 3}
-  m_Color: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -303,3 +305,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59137738cc62a7d418f102ba484c17b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCollidingLevel: 0
+  isCollidingEnemy: 0
